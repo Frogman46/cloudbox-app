@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  cloudbox:
+    image: cloudbox-app
+    container_name: cloudbox-container
+    ports:
+      - "80:80"
+    restart: always
